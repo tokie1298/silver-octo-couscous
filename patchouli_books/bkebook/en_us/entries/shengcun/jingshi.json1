@@ -1,0 +1,36 @@
+{
+    "name": "营养系统",
+    "icon": "minecraft:bread",
+    "category": "patchouli:shengcun",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "营养系统是生存的重要部分,所有的食物都具有它自己的营养价值。在保证自己不因饥饿而亡的前提下，应该保持各种营养摄入的均衡，来让身体达到最佳的状态。"
+        },
+        {
+            "type":"patchouli:text",
+            "title":"水果",
+            "text":""
+        },
+        {
+            "type":"patchouli:text",
+            "title":"谷物",
+            "text":""
+        },
+        {
+            "type":"patchouli:text",
+            "title":"蛋白质",
+            "text":""
+        },
+        {
+            "type":"patchouli:text",
+            "title":"蔬菜",
+            "text":""
+        },
+        {
+            "type":"patchouli:text",
+            "title":"糖类",
+            "text":""
+        }
+    ]
+}

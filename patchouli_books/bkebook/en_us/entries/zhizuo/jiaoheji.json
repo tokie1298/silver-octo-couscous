@@ -1,0 +1,13 @@
+{
+    "name": "胶合剂",
+    "icon": "bke:xiao_he_ji",
+    "category": "patchouli:zhizuo",
+    "pages": [
+        {
+            "type":"patchouli:crafting",
+            "title": "配方",
+            "recipe":"bke:jiaoheji",
+            "text": "$(br)胶合剂是一种粘性很好的物质，在其凝固后，可以自然得将被粘的物体结合到一起。$(br2)一坨刚刚制造出来的胶合剂，可以分开使用八次。"
+        }
+    ]
+}

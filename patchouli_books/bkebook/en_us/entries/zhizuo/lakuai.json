@@ -1,0 +1,13 @@
+{
+    "name": "蜡块",
+    "icon": "bke:zha_kuai",
+    "category": "patchouli:zhizuo",
+    "pages": [
+        {
+            "type":"patchouli:crafting",
+            "title": "配方",
+            "recipe":"bke:lakuai",
+            "text": "$(br)蜡块被用于局部打蜡的工艺，可以使物品长久的保持光亮并且不易被腐蚀。$(br2)一块全新的蜡块可以被反复擦拭三十二次。"
+        }
+    ]
+}

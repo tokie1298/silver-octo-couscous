@@ -1,0 +1,29 @@
+{
+    "name": "绿翡翠勘探",
+    "icon": "realisticforgingores:notpolishedemerald",
+    "category": "patchouli:huanjing",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "绿翡翠的获取"
+        },
+        {
+            "type":"patchouli:spotlight",
+            "item":"minecraft:emerald_ore,minecraft:deepslate_emerald_ore",
+            "title":"绿翡翠矿石",
+            "text":"在关于珍贵宝石的讨论中，有一位和钻石同样耀眼的存在。$(br)像钻石一样，绿翡翠也需要您将其收集到安全的地方处理，并使用相同的工具对其进行加工。$(br)然后切割粗糙的宝石，并且在砂轮中抛光它们。$(br)但绿翡翠并不及钻石那般坚硬，它们更多被用作装饰物。因此，我们需要对其进行额外的抛光，使其尽可能闪亮。$(br)接下来，需要额外的处理。"
+        },
+        {
+            "type":"patchouli:crafting",
+            "title": "工具合成",
+            "recipe":"bke:shazhi",
+            "text":"这一步，您需要一张砂纸，它会给宝石带来精细的额外细节。$(br)副手拿着砂纸，主手拿着粗糙的绿翡翠，用力的摩擦进行抛光。$(br)最后一步，副手拿着一块蜂蜜，将其涂抹在绿翡翠上使其保持光泽。"
+        },
+        {
+            "type":"patchouli:spotlight",
+            "title":"绿翡翠",
+            "item":"realisticforgingores:polishedemerald",
+            "text":"您已经完成了宝石收藏！恭喜！"
+        }
+    ]
+}

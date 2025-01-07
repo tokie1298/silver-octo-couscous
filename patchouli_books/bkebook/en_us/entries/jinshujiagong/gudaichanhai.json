@@ -1,0 +1,39 @@
+{
+    "name": "古代残骸冶炼",
+    "icon": "minecraft:netherite_ingot",
+    "category": "patchouli:jinshujiagong",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "古代残骸冶炼"
+        },
+        {
+            "type":"patchouli:text",
+            "title": "古代残骸碎片的收集",
+            "text":"$(br)古代碎片是曾经存在的一块非常坚硬的东西。$(br2)为了收集它，我们需要的不仅仅是一把简单的镐。$(br2)秘银大锤是完成这项工作的正确工具，也可以用作武器造成大量伤害，但非常非常慢。"
+        },
+        {
+            "type":"patchouli:crafting",
+            "title": "工具合成",
+            "recipe":"bke:miyindachui",
+            "text":"秘银作为一种稀有的炼金金属，无法从基础的采集中获得，可以前往商人处高价购买....或者$(br2)您有一个炼金师朋友的话，获得这些东西对您来说是小菜一碟。"
+        },
+        {
+            "type":"patchouli:crafting",
+            "title": "古代残骸的处理",
+            "recipe":"bke:daguo",
+            "text":"获得古代残骸碎片后，您需要将它们放入一个大锅中,副手拿着大锅，主手拿着四个古代残骸碎片，将其装入大锅中。"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "古代残骸的处理",
+            "text":"古代残骸碎片装入大锅后，在副手拿着装满古代残骸碎片的大锅，主手再拿起一个岩浆桶，将其倒入大锅中，等待它融化。$(br2)之后将四个金锭加入副手沸腾的混合物中。$(br2)在主手拿着条形模具，副手装着拿着融化的碎片和黄金的大锅，将其倒入模具中。$(br2)最后一步，将模具冷却，这样您就可以取出已经成型的古代残骸。"
+        },
+        {
+            "type":"patchouli:spotlight",
+            "title":"古代残骸",
+            "item":"minecraft:netherite_ingot",
+            "text":"古代的力量在您手中，收藏家们在向您招手！祝贺！"           
+        }
+    ]
+}

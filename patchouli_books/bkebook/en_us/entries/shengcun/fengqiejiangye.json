@@ -1,0 +1,36 @@
+{
+    "name": "瓶装风茄浆液",
+    "icon": "healingflasks:t_2_healing_flask",
+    "category": "patchouli:shengcun",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "title":"风茄浆液",
+            "text": "风茄浆液是由风茄提取物和一种地下矿物的炼金产物，和颠茄浆液一样具有让人快速愈合的效果。同颠茄浆液不同的是，其仅需饮用而不需要通过注射来产生效果。目前来说风茄浆液不会导致任何负面效果。不过还是被列为重度管理药物，非紧急情况禁止使用。"
+        },
+        {
+            "type":"patchouli:spotlight",
+            "title":"15盎司风茄浆液瓶",
+            "text":"15盎司，刚刚好够一口喝下，回复8点生命值。",
+            "item": "healingflasks:t_0_healing_flask"
+        },
+        {
+            "type":"patchouli:spotlight",
+            "title":"45盎司风茄浆液瓶",
+            "text":"45盎司，可饮用3次，每一次回复8点生命值，一共回复24点生命值。",
+            "item": "healingflasks:healing_flask"
+        },
+        {
+            "type":"patchouli:spotlight",
+            "title":"75盎司风茄浆液瓶",
+            "text":"75盎司，可以饮用5次，每一次回复8点生命值，一共回复40点生命值。",
+            "item": "healingflasks:t_2_healing_flask"
+        },
+        {
+            "type":"patchouli:spotlight",
+            "title":"105盎司大天使之泪浆液瓶",
+            "text":"105盎司的大天使之泪浆液，使用了加强的风茄浆液配方，可以饮用7次，每一次回复8点生命值，一共回复56点生命值。",
+            "item": "healingflasks:t_3_healing_flask"
+        }
+    ]
+}

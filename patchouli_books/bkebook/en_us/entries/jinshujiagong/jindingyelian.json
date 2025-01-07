@@ -1,0 +1,46 @@
+{
+    "name": "金锭冶炼",
+    "icon": "minecraft:gold_ingot",
+    "category": "patchouli:jinshujiagong",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "铸造金锭"
+        },
+        {
+            
+            "type": "patchouli:text",
+            "title": "清洗",
+            "text":"$(br)熔化黄金过程的第一步是从所有涉及它的岩石沉积物中清除纯原矿石。$(br2)为此，好好清洗就可以了，和热生铁冷却一样，在水源方块和装满水的炼药锅里都可以进行。$(br2)不过在河里洗它会花更长的时间。"         
+        },
+        {
+            "type":"patchouli:crafting",
+            "title": "模具合成",
+            "recipe":"bke:naihuozhuan",
+            "recipe2":"bke:dingmujutaopi"
+        },
+        {
+            "type":"patchouli:smelting",
+            "title":"模具烧炼",
+            "recipe":"bke:tiaoxingmuju",
+            "text":"$(br)这是专门为铸锭准备模具。$(br2)然后副手拿着条形模具，主手拿着纯洁原始的金矿石将放入模具内即可。"
+        },
+        {
+            "type":"patchouli:blasting",
+            "title":"熔化黄金",
+            "recipe":"realisticforgingores:meltinggold",
+            "text":"$(br)现在是熔化黄金的时候了。$(br2)熔化黄金所需的热量只能通过高炉来实现，你不能用普通炉熔化黄金。"
+        },
+        {
+            "type":"patchouli:text",
+            "title":"金条的获取",
+            "text":"当黄金熔化时，需要将其拿起（不要忘记使用钳子）。$(br2)并且冷却它，和冷却热生铁一样。$(br2)使用炼药锅时，模具在冷却过程中损坏的概率很小。当您从中取出黄金时，损坏的模具会破裂。如果您在河中冷却模具，损坏的概率会大大增加。$(br2)然后，只需从钳子中取出模具，再从模具中取出金条。"
+        },
+        {
+            "type":"patchouli:spotlight",
+            "title":"金锭",
+            "item":"minecraft:gold_ingot",
+            "text":"给你，闪亮的新金条！祝贺！"
+        }   
+    ]
+}

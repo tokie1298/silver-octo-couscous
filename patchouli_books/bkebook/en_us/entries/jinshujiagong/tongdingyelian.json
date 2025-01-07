@@ -1,0 +1,43 @@
+{
+    "name": "铜锭冶炼",
+    "icon": "minecraft:copper_ingot",
+    "category": "patchouli:jinshujiagong",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "铸造铜锭"
+        },
+        {
+            "type": "patchouli:text",
+            "title":"选矿",
+            "text": "像金一样，铜也需要铸造。但您首先需要将铜矿石粉碎成细沙以松散矿物来进行选矿。$(br2)选矿过程是将铜矿中的杂质去除，提高铜的含量，以获得适合后续处理的原料。$(br2)为此，您需要一个铁锅和一个木杵。"
+        },
+        {
+            "type":"patchouli:crafting",
+            "title":"工具制作",
+            "recipe":"bke:muchu",
+            "recipe2":"bke:tieguo"    
+        },
+        {
+            "type":"patchouli:text",
+            "title":"冶炼准备",
+            "text":"$(br)现在，副手拿锅，主手拿着处理过的铜矿石，将其放入锅中。$(br2)然后副手拿着木杵，主手拿着装满铁矿石的锅，用力将矿石粉碎成粉末。"
+        },
+        {
+           "type":"patchouli:blasting",
+            "title":"冶炼铜矿",
+            "recipe":"realisticforgingores:melting_copperore",
+            "text":"现在铜已经准备好冶炼了，同样，就像黄金一样，只有高炉能够获得冶炼矿石所需的热量。$(br2)将装有铜粉的平底锅放入高炉中，准备好后用铁匠钳将其捡起。" 
+        },
+        {
+            "type":"patchouli:text",
+            "title":"铜锭成型",
+            "text":"$(br)现在您需要将热铜倒入模具内：$(br2)副手拿着条形模具，主手拿着含融化铜的锅，将其倒入模具中。$(br2)它现在已经变成了铸锭的形状，你需要把它冷却下来，不用担心模具，它没有加热到足以开裂。$(br2)现在只需从模具中拿出铜锭即可。"
+        },
+        {
+            "type":"patchouli:spotlight",
+            "text":"现在你手里有了一个漂亮的铜锭，利于人类发展的金属!祝贺!",
+            "item": "minecraft:copper_ingot"
+        } 
+    ]
+}

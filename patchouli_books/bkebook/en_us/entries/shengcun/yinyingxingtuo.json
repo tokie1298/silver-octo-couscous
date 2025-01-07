@@ -1,0 +1,22 @@
+{
+    "name": "银印保障协会",
+    "icon": "bke:yin_yin_bao_zhang_xie_hui",
+    "category": "patchouli:shengcun",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "[The Silver Seal Assurance]$(br2)银印为王都的官方认可，银印保障协会作为官方的直系部门，提供了强大且可靠的物品保险服务。"
+        },
+        {
+            "type":"patchouli:text",
+            "title":"银印信托",
+            "text":"$(br)银印信托为银印保障协会的专属服务，对于任何打上银印信托附魔印记的物品，只要是在西部地区人为丢失且没有损毁的，都会在其持有者死亡重生后返还，具有可靠，快捷的特点。$(br2)银印信托服务可以前往银印保障协会进行办理。"
+        },
+        {
+            "type":"patchouli:spotlight",
+            "title":"银印信托包",
+            "item": "explorers_companion:leather_backpack,explorers_companion:intermediate_backpack,explorers_companion:hefty_backpack,explorers_companion:large_backpack",
+            "text":"$(br)银印信托包为银印保障协会针对西部地区特别推出的物品保险袋服务，和银印信托不同的是，该服务会提供一个实体的信托包，且自带银印信托印记。$(br)只要是装在信托包内的物品，会在银印信托服务生效后一同返还，而不需要单独为包内的每个物品购买信托服务。"
+        }
+    ]
+}

@@ -1,0 +1,60 @@
+{
+    "name": "铁锭冶炼",
+    "icon": "minecraft:iron_ingot",
+    "category": "patchouli:jinshujiagong",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "锻造铁锭"
+        },
+        {
+            
+            "type": "patchouli:text",
+            "title": "清洗",
+            "text":"第一步是将刚刚从矿脉中开采的原矿分离出所有灰尘和污垢。$(br2)对于清洁原矿石，有 3 种选择：$(br2)- 空手：只需右键点击主手中的原铁矿石即可。$(br)- 纸张：副手拿着纸，主手拿着矿石，然后右键单击。（清洁速度会更快，但会消耗纸张）。$(br)- 刷子：握住副手的刷子和主手的矿石，然后右键单击。（它的清洁速度更快，可以收集铁矿石粉尘，这些粉尘可以在水中清洗并冶炼成铁块。"         
+        },
+        {
+           "type": "patchouli:text", 
+           "title": "热处理",
+           "text":"第二步时应该拥有一个全新的清洁过的原矿，可以进行冶炼了。$(br2)原矿可以在炉中加热。"
+        },
+        {
+            "type": "patchouli:smelting",
+            "title":"铁矿的冶炼",
+            "recipe":"realisticforgingores:smeltrawironore",
+            "text":"现在您已经加热了所有的铁矿石，您可能注意到您得到了热铁矿石球。不要徒手拿起它，否则您会被烫伤。"
+        },
+        {
+            "type":"patchouli:text",
+            "title": "获取热生铁",
+            "text":"第三步，使用主手中的铁匠钳，然后你可以安全地将热铁放入你的背包中。$(br)它会自动被钳子握住，一次一个，不要直接拿起整个，否则你会被烫伤，因为钳子一次只能携带一个热铁。$(br)为了防止发生意外火灾，生热铁无法被堆叠。您需要一次加热一个。$(br)如果你还没有铁匠钳，你可以制作和使用两根棍子，但是棍子不如铁匠钳有效，因为它们在第一次使用后会燃烧。"
+        },
+        {
+            "type":"patchouli:crafting",
+            "title":"相关工具获取",
+            "recipe":"bke:tiejiangqian",
+            "recipe2":"bke:lianggenmugun"
+        },
+        {
+            "type":"patchouli:text",
+            "title":"热生铁的处理",
+            "text":"第四步您需要两样东西，但首先确保您靠近水源。$(br)水源可以是含水的方块，或者是装满水的炼药锅。$(br)另外两样东西分别是：$(br2)- 锻造锤$(br)- 锻造铁砧$(br)锻造铁砧将塑型您要处理的热生铁。如果没有锻造铁砧，也可以在一个光滑的表面来进行敲打。这样会使其表面生成的大石头，且会使您效率低下，在塑型时花费更长的时间。"
+        },
+        {
+            "type":"patchouli:crafting",
+            "title":"相关工具获取",
+            "recipe":"bke:duanzhaocui",
+            "recipe2":"bke:duanzhaotiezhen"
+        },
+        {
+            "type":"patchouli:text",
+            "title":"体力劳动！",
+            "text":"副手握住敲击锤，主手拿着热铁，瞄准敲击的铁砧（或石块）并右键单击它。玩家将用锤子敲击热铁，开始成型过程。$(br)->叮$(br)->叮$(br)->叮$(br)->叮$(br)敲打热铁几次，直到它开始变成铸锭的形状。当您无法再用锤子敲击它时，成型过程就好了。$(br)最后一步是冷却它，在任何水源上右击，它会将变成铸锭。$(br)现在只需右键单击它即可从钳子中取出铸锭。"
+        },
+        {
+            "type":"patchouli:spotlight",
+            "text":"铁矿的冶炼已完成，您现在拥有当之无愧的铁锭。祝贺！",
+            "item": "minecraft:iron_ingot"
+        }
+    ]
+}

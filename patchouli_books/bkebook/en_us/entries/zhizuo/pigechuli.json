@@ -1,0 +1,36 @@
+{
+    "name": "皮革处理",
+    "icon": "bke:jin_zi_pi_ge",
+    "category": "patchouli:zhizuo",
+    "pages": [
+        {
+            "type":"patchouli:spotlight",
+            "item": "minecraft:leather",
+            "text": "生皮来源于各类陆地动物的掉落，是各类工具服装的基本材料，新鲜的生皮需要在鞣制后才能被用于制作其他物品。$(br2)通过鞣酸使生皮变成革的过程称为鞣制。鞣制是制革加工的重要工序。"
+        },
+        {
+            "type":"patchouli:crafting",
+            "title": "工具合成",
+            "recipe":"bke:guadao",
+            "text":"$(br)刮刀可以轻而易举的将生皮上残留的脂肪组织清理下来，然后需要准备一个水桶，来清洁生皮上的那些血污。"
+        },
+        {
+            "type":"patchouli:crafting",
+            "title": "生皮处理",
+            "recipe":"bke:jinxipige",
+            "text":"$(br)现在生皮上的脂肪已经被清理下来，您可以拿走这些油乎乎的东西，让它到别的地方去发挥作用。或者仅仅是丢在原地，用来回馈自然。"
+        },
+        {
+            "type":"patchouli:crafting",
+            "title": "皮革鞣制",
+            "recipe":"bke:rouzhipige",
+            "text":"$(br)使用鞣酸来处理浸洗皮革。$(br)鞣酸需要从一种名为五倍子的植物中提取，其过程复杂繁琐，最好在商人处购买鞣酸瓶。当然，您的炼金师朋友现在一定可以为您提供帮助。"
+        },
+        {
+            "type":"patchouli:crafting",
+            "title": "皮革后加工",
+            "recipe":"bke:pigedai",
+            "text":"$(br)使用剪刀，可以将鞣制皮革剪成三根皮革带，用来捆绑或者包裹其他物品。"
+        }
+    ]
+}

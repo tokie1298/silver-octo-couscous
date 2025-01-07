@@ -1,0 +1,23 @@
+{
+    "name": "淘矿砂",
+    "icon": "ribspanning:clay_pan",
+    "category": "patchouli:huanjing",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "风通省的西部地区从来不会缺乏宝藏，在那些静静流淌的河流中，可以看到那些含有宝物的矿砂团闪烁着光芒。$(br)淘矿砂则是使用淘金盘，站在水中，借助自然的力量冲洗掉那些矿砂团上的杂物，来看看那些光芒究竟来自什么。$(br)淘矿砂并不一定能获得好东西，大概率你的淘金盘中只会剩下石头和粘土。但一旦能够找到那些稀有的矿物，之前费力的一切都会值得，毕竟风险往往伴随着高回报。"
+        },
+        {
+            "type":"patchouli:spotlight",
+            "title":"淘金盘",
+            "item":"ribspanning:clay_pan,ribspanning:copper_pan,ribspanning:iron_pan",
+            "text":"这些淘金盘可以在那些贩卖工具和古董的商人处买到。"
+        },
+        {
+            "type":"patchouli:spotlight",
+            "title":"矿砂团",
+            "item":"bke:hui_se_sha_kuang_tuan,bke:zong_se_sha_kuang_tuan,bke:yin_se_sha_kuang_tuan,bke:jin_se_sha_kuang_tuan,bke:hong_se_sha_kuang_tuan",
+            "text":"这些矿沙团概率在水中的捕捞箱中获得，当然，一些强大的敌人身上也会掉落。如果实在想体验淘矿砂的乐趣，去找矿工或者古董商人购买也是个不错的选择。"
+        }
+    ]
+}

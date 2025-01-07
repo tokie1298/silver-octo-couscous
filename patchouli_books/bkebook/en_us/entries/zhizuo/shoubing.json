@@ -1,0 +1,13 @@
+{
+    "name": "柄",
+    "icon": "magistuarmory:hilt",
+    "category": "patchouli:zhizuo",
+    "pages": [
+        {
+            "type":"patchouli:crafting",
+            "title": "配方",
+            "recipe":"bke:shoubing",
+            "text": "$(br)各类工具和武器的基础部分，经过皮革包裹和打蜡处理的柄比普通的木棍更加坚固耐用，也能承受更强大的力量。"
+        }
+    ]
+}

@@ -1,0 +1,40 @@
+{
+    "name": "钻石勘探",
+    "icon": "realisticforgingores:moldeddiamond_2",
+    "category": "patchouli:huanjing",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "钻石的获取"
+        },
+        {
+            "type":"patchouli:spotlight",
+            "item":"minecraft:diamond_ore,minecraft:deepslate_diamond_ore",
+            "title":"钻石矿石",
+            "text":"$(br)钻石是一种宝石，因此，使用大而不准确的镐只会从墙上去除。$(br2)但这很好，而且可能是必要的，因为您会希望在处理这些珍贵矿物之前将它们带到安全的地方。"
+        },
+        {
+            "type":"patchouli:crafting",
+            "title": "工具合成",
+            "recipe":"bke:baoshidiaokechui",
+            "recipe2":"bke:baoshizaozi"
+        },
+        {
+            "type":"patchouli:text",
+            "title":"矿石处理",
+            "text":"现在您已经收集了所有钻石，是时候将它们带到表面并开始宝石加工了。$(br)首先，您需要一把雕刻锤和一把尖凿，使用这两个工具，您可以雕刻和去除矿物周围的石头。$(br)主手拿着宝石雕刻锤，副手拿着宝石凿子，对着砖石矿右键进行雕刻，直到您将其从原矿上剔除下来。$(br)正如您所注意到的，您获得了一颗粗钻石，它很漂亮，但还没有准备好使用。"
+        },
+        {
+            "type":"patchouli:spotlight",
+            "item":"minecraft:stonecutter,minecraft:grindstone",
+            "title":"粗钻石处理工具",
+            "text":"下一步，您需要将粗钻石切成小块。使用切石机（按住 Shift 键）。$(br2)切割后，下一步是最重要的，对粗切钻石进行塑形和抛光，以便随时使用。$(br2)使用磨石切割粗切钻石会使其变圆，将钻石塑造和抛光至最佳形状（按住 Shift 键）。"
+        },
+        {
+            "type":"patchouli:spotlight",
+            "title":"铸模钻石",
+            "item":"realisticforgingores:moldeddiamond_2",
+            "text":"闪闪发光的工艺品，更多的钱币！祝贺！！"
+        }
+    ]
+}
